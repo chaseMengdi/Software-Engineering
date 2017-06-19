@@ -45,7 +45,7 @@ int main() {
 	for (i = 0; i < pointNum; i++) {
 		printf("请输入第%d个点的坐标(空格隔开)：", i + 1);
 		double x, y, z;
-		scanf_s("%lf %lf", &x, &y,&z);
+		scanf_s("%lf %lf $lf", &x, &y,&z);
 		putPoint(x, y, z);
 	}
 	printf("\n球编号\t x坐标\t y坐标\t z坐标\t 半径\t r^2之和\n");
