@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#DEFINE PI 3.1415926 
+#include <string.h> 
 
 //气球结构体
 typedef struct balloon{
